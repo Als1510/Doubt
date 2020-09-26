@@ -10,7 +10,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form action="/FORUM/partials/_handelSignup.php" method="post">
+                <form action="/Doubt/partials/_handelSignup.php" method="post">
                     <div class="modal-body">
                         <div class="form-group">
                             <label for="SignupName">Username</label>
