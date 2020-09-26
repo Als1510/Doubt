@@ -23,12 +23,12 @@ if($_SERVER['REQUEST_METHOD']=="POST")
         else
         {
             $showerror = "Wrong Password! Try again.";
-            header("Location: /FORUM/index.php?login=false&error=$showerror");
+            header("Location: /index.php?login=false&error=$showerror");
         }
     }
     else{
         $showerror = "Account not found. Signup";
-    header("Location: /FORUM/index.php?login=false&error=$showerror");
+    header("Location: /index.php?login=false&error=$showerror");
     }
 }
 ?>
