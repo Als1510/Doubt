@@ -12,7 +12,7 @@
                 min-height:400px;
             }
         </style>
-        <title>Welcome to Doubt - Coding Discussion Forum</title>
+        <title>Welcome to Doubt Discussion Forum</title>
     </head>
     <body>
         <?php include 'partials/_dbconnect.php'; ?>
