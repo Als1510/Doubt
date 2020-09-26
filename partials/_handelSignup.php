@@ -25,14 +25,14 @@ if($_SERVER['REQUEST_METHOD']=="POST")
             if($result)
             {
                 $showAlert = true;
-                header("Location: /FORUM/index.php?signupsuccess=true");
+                header("Location: /index.php?signupsuccess=true");
                 exit();
             }
         }
         else
         {
             $showError = "Passwords do not match";
-            header("Location: /FORUM/index.php?signupsuccess=false&error=$showError");
+            header("Location: /index.php?signupsuccess=false&error=$showError");
         }
     }
 }
