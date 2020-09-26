@@ -13,7 +13,7 @@ if($_SERVER['REQUEST_METHOD']=="POST")
     if($numrows>0)
     {
         $showError = "Email already in use";
-        header("Location: /FORUM/index.php?signupsuccess=false&error=$showError");
+        header("Location: /Doubt/index.php?signupsuccess=false&error=$showError");
     }
     else
     {
@@ -25,14 +25,14 @@ if($_SERVER['REQUEST_METHOD']=="POST")
             if($result)
             {
                 $showAlert = true;
-                header("Location: /index.php?signupsuccess=true");
+                header("Location: /Doubt/index.php?signupsuccess=true");
                 exit();
             }
         }
         else
         {
             $showError = "Passwords do not match";
-            header("Location: /index.php?signupsuccess=false&error=$showError");
+            header("Location: /Doubt/index.php?signupsuccess=false&error=$showError");
         }
     }
 }
