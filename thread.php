@@ -15,7 +15,7 @@
         }
 
         </style>
-        <title>Welcome to iDiscuss - Coding Forum</title>
+        <title>Welcome to Doubt Discussion forum</title>
     </head>
 
     <body>
